@@ -1,0 +1,742 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Francis/GitProjects/vhdlcpu/Part 2/modelsim/NonOptimized
+Ealu
+Z0 w1459309867
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/Francis/GitProjects/vhdlcpu/Part 2/modelsim/LastTaken
+Z5 8C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/ALU.vhd
+Z6 FC:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/ALU.vhd
+l0
+L5
+VI[bQD32Hb05HR^nM0?;OB2
+!s100 ]MzmW?91`EclZ5VnCJl0b2
+Z7 OV;C;10.4b;61
+32
+Z8 !s110 1460613911
+!i10b 1
+Z9 !s108 1460613910.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/ALU.vhd|
+Z11 !s107 C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/ALU.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1
+Aarch
+R1
+R2
+R3
+Z14 DEx4 work 3 alu 0 22 I[bQD32Hb05HR^nM0?;OB2
+l21
+L16
+V^^;4XA<eI52<^DeNgWN8L1
+!s100 ]::0^J43ZQzc84=J2o_lH2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecpu
+Z15 w1460612803
+R1
+R2
+R3
+R4
+Z16 8C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/cpu.vhd
+Z17 FC:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/cpu.vhd
+l0
+L15
+V25kmGgY88dnmEk]n53`Ya3
+!s100 fRmKSSHJR8ek5Y8X@lQj42
+R7
+32
+R8
+!i10b 1
+Z18 !s108 1460613911.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/cpu.vhd|
+Z20 !s107 C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/cpu.vhd|
+!i113 1
+R12
+R13
+Artl
+Z21 DEx4 work 15 mem_wb_register 0 22 c:=V7d22FmTOgl6of?V3g1
+Z22 DEx4 work 11 main_memory 0 22 n_j1QeG[>fG;AOXAQ49261
+Z23 DEx4 work 27 last_taken_branch_corrector 0 22 Po4fhE<naFaIeA_0zlRHm3
+Z24 DEx4 work 15 ex_mem_register 0 22 6m@9=>lV59f4_AlWWKlCX1
+Z25 DEx4 work 21 forwarding_controller 0 22 G7J3]mG^7z;NIFgfiUFzj2
+R14
+Z26 DEx4 work 14 id_ex_register 0 22 bL>iW^FjlQ`CgiV6LiEEj3
+Z27 DEx4 work 16 jump_hazard_unit 0 22 ?WhaDHaFSc9DjP9I;2[k<2
+Z28 DEx4 work 13 register_file 0 22 SK79;fJ]<626;8Ie_L9aj2
+Z29 DEx4 work 14 cpu_controller 0 22 6eVl>TzB[_A;KGO4_g4O63
+Z30 DEx4 work 19 instruction_decoder 0 22 gh1MQaJ?0ZOcI4STBOl2?1
+Z31 DEx4 work 14 if_id_register 0 22 H^;jCjeBLoWlcggB8>W5F0
+Z32 DEx4 work 28 last_taken_target_calculator 0 22 eZZUee=izMgi_54N>HL3Q2
+Z33 DEx4 work 17 instruction_cache 0 22 Z@ejaQ>iDo99lWzRO<;[@0
+R1
+R2
+R3
+DEx4 work 3 cpu 0 22 25kmGgY88dnmEk]n53`Ya3
+l195
+L40
+VbKYB>DnTojYi;NhEW_;ke1
+!s100 2z<ib[_fS_GbRa=jOj?Kg1
+R7
+32
+R8
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Ecpu_controller
+Z34 w1459301532
+R2
+R3
+R4
+Z35 8C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/CPU_CONTROLLER.vhd
+Z36 FC:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/CPU_CONTROLLER.vhd
+l0
+L4
+V6eVl>TzB[_A;KGO4_g4O63
+!s100 DPJ7]7_@YMf3??Q1B3DXZ2
+R7
+32
+R8
+!i10b 1
+R18
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/CPU_CONTROLLER.vhd|
+Z38 !s107 C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/CPU_CONTROLLER.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R29
+l23
+L22
+VG7b]`fT=_hjU=<]k_:m><2
+!s100 hPOC];^0dFcnUc;of[Be`0
+R7
+32
+R8
+!i10b 1
+R18
+R37
+R38
+!i113 1
+R12
+R13
+Ecpu_tb
+Z39 w1460582129
+R1
+R2
+R3
+R4
+Z40 8C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/cpu_tb.vhd
+Z41 FC:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/cpu_tb.vhd
+l0
+L6
+VK?ieMk35?Gf<iQcBTb;^U1
+!s100 84AbQHGRbPm[hmL=D`gAW3
+R7
+32
+R8
+!i10b 1
+R18
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/cpu_tb.vhd|
+Z43 !s107 C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/cpu_tb.vhd|
+!i113 1
+R12
+R13
+Abb
+R1
+R2
+R3
+DEx4 work 6 cpu_tb 0 22 K?ieMk35?Gf<iQcBTb;^U1
+l41
+L12
+VEDzB=domMzNIBcMll=dW^1
+!s100 n8NW`g7KQh]MGoF9J=4id1
+R7
+32
+R8
+!i10b 1
+R18
+R42
+R43
+!i113 1
+R12
+R13
+Eex_mem_register
+Z44 w1459298368
+R2
+R3
+R4
+Z45 8C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/EX_MEM_REGISTER.vhd
+Z46 FC:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/EX_MEM_REGISTER.vhd
+l0
+L4
+V6m@9=>lV59f4_AlWWKlCX1
+!s100 `=oe:f^_]Yd5?g<j;V@8b0
+R7
+32
+R8
+!i10b 1
+R18
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/EX_MEM_REGISTER.vhd|
+Z48 !s107 C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/EX_MEM_REGISTER.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R24
+l39
+L38
+VXecDibM;GVd6PzBfFeY3W2
+!s100 j?ZdCZlafn80L_25F?3Gk0
+R7
+32
+R8
+!i10b 1
+R18
+R47
+R48
+!i113 1
+R12
+R13
+Eforwarding_controller
+Z49 w1459308265
+R2
+R3
+R4
+Z50 8C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/FORWARDING_CONTROLLER.vhd
+Z51 FC:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/FORWARDING_CONTROLLER.vhd
+l0
+L4
+VG7J3]mG^7z;NIFgfiUFzj2
+!s100 0MRg;MA1CgzTR]Q`Za^Di1
+R7
+32
+R8
+!i10b 1
+R18
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/FORWARDING_CONTROLLER.vhd|
+Z53 !s107 C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/FORWARDING_CONTROLLER.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R25
+l18
+L17
+V^QoTlcN4J=0na@C3E8gJP1
+!s100 G2EPO:`1;KW5iz85ZF<1:1
+R7
+32
+R8
+!i10b 1
+R18
+R52
+R53
+!i113 1
+R12
+R13
+Eid_ex_register
+Z54 w1460603550
+R2
+R3
+R4
+Z55 8C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/ID_EX_REGISTER.vhd
+Z56 FC:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/ID_EX_REGISTER.vhd
+l0
+L4
+VbL>iW^FjlQ`CgiV6LiEEj3
+!s100 iCm[9o_Z8fQElMOihVGZT3
+R7
+32
+R8
+!i10b 1
+R18
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/ID_EX_REGISTER.vhd|
+Z58 !s107 C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/ID_EX_REGISTER.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R26
+l62
+L61
+V7TRnW7jRX_kPi1ic6[<0K0
+!s100 VIKh^gzoTeKa[9HZAMEfF1
+R7
+32
+R8
+!i10b 1
+R18
+R57
+R58
+!i113 1
+R12
+R13
+Eif_id_register
+Z59 w1460601015
+R1
+R2
+R3
+R4
+Z60 8C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/IF_ID_REGISTER.vhd
+Z61 FC:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/IF_ID_REGISTER.vhd
+l0
+L5
+VH^;jCjeBLoWlcggB8>W5F0
+!s100 EZDF1X6<mQ1E`Y2dc^XhK0
+R7
+32
+R8
+!i10b 1
+R18
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/IF_ID_REGISTER.vhd|
+Z63 !s107 C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/IF_ID_REGISTER.vhd|
+!i113 1
+R12
+R13
+Aarch
+R1
+R2
+R3
+R31
+l36
+L35
+Ve_?<BzngUOJ_5WKEH7QCH0
+!s100 b^XH<@<0H94ckK5G;Ril91
+R7
+32
+R8
+!i10b 1
+R18
+R62
+R63
+!i113 1
+R12
+R13
+Einstruction_cache
+Z64 w1460595502
+R1
+R2
+R3
+R4
+Z65 8C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/INSTRUCTION_CACHE.vhd
+Z66 FC:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/INSTRUCTION_CACHE.vhd
+l0
+L6
+VZ@ejaQ>iDo99lWzRO<;[@0
+!s100 n7m:fID?1VTSR11JBi4;C3
+R7
+32
+R8
+!i10b 1
+R18
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/INSTRUCTION_CACHE.vhd|
+Z68 !s107 C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/INSTRUCTION_CACHE.vhd|
+!i113 1
+R12
+R13
+Abehaviour
+R1
+R2
+R3
+R33
+l70
+L20
+VKk7D]A_Mc_c9`Uhddl<?i2
+!s100 634ZWMd6M8SLRI;oa7da_1
+R7
+32
+R8
+!i10b 1
+R18
+R67
+R68
+!i113 1
+R12
+R13
+Einstruction_decoder
+Z69 w1458015420
+R2
+R3
+R4
+Z70 8C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/INSTRUCTION_DECODER.vhd
+Z71 FC:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/INSTRUCTION_DECODER.vhd
+l0
+L4
+Vgh1MQaJ?0ZOcI4STBOl2?1
+!s100 Y?_:3^kj4B`oD>nf29_4b2
+R7
+32
+R8
+!i10b 1
+R18
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/INSTRUCTION_DECODER.vhd|
+Z73 !s107 C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/INSTRUCTION_DECODER.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R30
+l19
+L18
+V=72X3if4n?@f?gLz@FFI20
+!s100 CN7n[oRF2T7>P54[UN43N1
+R7
+32
+R8
+!i10b 1
+R18
+R72
+R73
+!i113 1
+R12
+R13
+Ejump_hazard_unit
+Z74 w1460593350
+R2
+R3
+R4
+Z75 8C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/JUMP_HAZARD_UNIT.vhd
+Z76 FC:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/JUMP_HAZARD_UNIT.vhd
+l0
+L4
+V?WhaDHaFSc9DjP9I;2[k<2
+!s100 `D5nbS2dLo:96WBa=L?Q@1
+R7
+32
+Z77 !s110 1460613912
+!i10b 1
+Z78 !s108 1460613912.000000
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/JUMP_HAZARD_UNIT.vhd|
+Z80 !s107 C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/JUMP_HAZARD_UNIT.vhd|
+!i113 1
+R12
+R13
+Abehaviour
+R2
+R3
+R27
+l21
+L20
+VDeQZSPHe?Ca`zHfY>azPb2
+!s100 UPVMjgkKYG;UW4R@[P1?M2
+R7
+32
+R77
+!i10b 1
+R78
+R79
+R80
+!i113 1
+R12
+R13
+Elast_taken_branch_corrector
+Z81 w1460605007
+R1
+R2
+R3
+R4
+Z82 8C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/LAST_TAKEN_BRANCH_CORRECTOR.vhd
+Z83 FC:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/LAST_TAKEN_BRANCH_CORRECTOR.vhd
+l0
+L5
+VPo4fhE<naFaIeA_0zlRHm3
+!s100 A>0H^Xo9O`0DYAei;29XG1
+R7
+32
+R77
+!i10b 1
+R78
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/LAST_TAKEN_BRANCH_CORRECTOR.vhd|
+Z85 !s107 C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/LAST_TAKEN_BRANCH_CORRECTOR.vhd|
+!i113 1
+R12
+R13
+Aarch
+R1
+R2
+R3
+R23
+l35
+L32
+VG1U4C8[jf;`VQYzo[dk9H1
+!s100 z5oDf33n2XTIR8>OHJbVk1
+R7
+32
+R77
+!i10b 1
+R78
+R84
+R85
+!i113 1
+R12
+R13
+Elast_taken_target_calculator
+Z86 w1460613906
+R1
+R2
+R3
+R4
+Z87 8C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/LAST_TAKEN_TARGET_CALCULATOR.vhd
+Z88 FC:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/LAST_TAKEN_TARGET_CALCULATOR.vhd
+l0
+L5
+VeZZUee=izMgi_54N>HL3Q2
+!s100 EMWT[l]B6PQ]S>Z^Ao2BE2
+R7
+32
+R77
+!i10b 1
+R78
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/LAST_TAKEN_TARGET_CALCULATOR.vhd|
+Z90 !s107 C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/LAST_TAKEN_TARGET_CALCULATOR.vhd|
+!i113 1
+R12
+R13
+Aarch
+R1
+R2
+R3
+R32
+l28
+L18
+VW2^zY?4LWfGY;c_OmR7eZ3
+!s100 KQJE`3>?TmY3ncUHNjo420
+R7
+32
+R77
+!i10b 1
+R78
+R89
+R90
+!i113 1
+R12
+R13
+Emain_memory
+Z91 w1459381277
+R2
+R3
+R4
+Z92 8C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/Main_Memory.vhd
+Z93 FC:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/Main_Memory.vhd
+l0
+L5
+Vn_j1QeG[>fG;AOXAQ49261
+!s100 bR5?]M7iAc5hBSBI7HYS70
+R7
+32
+R77
+!i10b 1
+R78
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/Main_Memory.vhd|
+Z95 !s107 C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/Main_Memory.vhd|
+!i113 1
+R12
+R13
+Abehavioural
+R2
+R3
+R22
+l65
+L29
+Vjn;Ga521=Y_h=lZ<9fkUO1
+!s100 C@WcFD]oh2:ZPn]AO1QVS0
+R7
+32
+R77
+!i10b 1
+R78
+R94
+R95
+!i113 1
+R12
+R13
+Emem_wb_register
+Z96 w1459298385
+R2
+R3
+R4
+Z97 8C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/MEM_WB_REGISTER.vhd
+Z98 FC:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/MEM_WB_REGISTER.vhd
+l0
+L4
+Vc:=V7d22FmTOgl6of?V3g1
+!s100 0]OmBaX[_Ui?n68Ia;i0P3
+R7
+32
+R77
+!i10b 1
+R78
+Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/MEM_WB_REGISTER.vhd|
+Z100 !s107 C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/MEM_WB_REGISTER.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R21
+l33
+L32
+VHjbaGWoH8_71hnWc<C0F12
+!s100 eQMF6z:`oHC]J_k3L<fI60
+R7
+32
+R77
+!i10b 1
+R78
+R99
+R100
+!i113 1
+R12
+R13
+Ememory_in_byte
+Z101 w1459381203
+R2
+R3
+R4
+Z102 8C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/Memory_in_Byte.vhd
+Z103 FC:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/Memory_in_Byte.vhd
+l0
+L5
+Vo0>[9k19S0<Qg3dhzYhio3
+!s100 H=Sa=_LTc7HzSf:iGhnOm1
+R7
+32
+R77
+!i10b 1
+R78
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/Memory_in_Byte.vhd|
+Z105 !s107 C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/Memory_in_Byte.vhd|
+!i113 1
+R12
+R13
+Abehavioural
+R2
+R3
+DEx4 work 14 memory_in_byte 0 22 o0>[9k19S0<Qg3dhzYhio3
+l33
+L29
+V[;dS?zLM2^TM<Qe7_c^2o3
+!s100 17NjB4D>X`]^nF@VW0[^H2
+R7
+32
+R77
+!i10b 1
+R78
+R104
+R105
+!i113 1
+R12
+R13
+Eregister_file
+Z106 w1459312937
+R1
+R2
+R3
+R4
+Z107 8C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/REGISTER_FILE.vhd
+Z108 FC:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/REGISTER_FILE.vhd
+l0
+L5
+VSK79;fJ]<626;8Ie_L9aj2
+!s100 5ILQ;cPORG]HZkXoc3a1h0
+R7
+32
+R77
+!i10b 1
+R78
+Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/REGISTER_FILE.vhd|
+Z110 !s107 C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/REGISTER_FILE.vhd|
+!i113 1
+R12
+R13
+Aarch
+R1
+R2
+R3
+R28
+l23
+L20
+Z111 VXWKA=:X_kVUIoC?dnO1VI0
+Z112 !s100 jCSgcUIH[K5Omb4LWGgHd2
+R7
+32
+R77
+!i10b 1
+R78
+R109
+R110
+!i113 1
+R12
+R13
+Estatic_branch_predictor
+Z113 w1460595241
+R2
+R3
+R4
+Z114 8C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/STATIC_BRANCH_PREDICTOR.vhd
+Z115 FC:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/STATIC_BRANCH_PREDICTOR.vhd
+l0
+L4
+V9SLKC1QH_<2K@V`dG;ZZT2
+!s100 ^Z_nKU`1nVlR;iMFeUz6M3
+R7
+32
+Z116 !s110 1460604956
+!i10b 1
+Z117 !s108 1460604956.000000
+Z118 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/STATIC_BRANCH_PREDICTOR.vhd|
+Z119 !s107 C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/STATIC_BRANCH_PREDICTOR.vhd|
+!i113 1
+R12
+R13
+Abehaviour
+R2
+R3
+DEx4 work 23 static_branch_predictor 0 22 9SLKC1QH_<2K@V`dG;ZZT2
+l24
+L23
+VXXXL:6MEi=VFCf`jIhjiI2
+!s100 YVV6hG0XFk1=0HCGCCLGX0
+R7
+32
+R116
+!i10b 1
+R117
+R118
+R119
+!i113 1
+R12
+R13

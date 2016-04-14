@@ -1,0 +1,159 @@
+{C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/ALU.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture arch of ALU
+
+} {} {}} {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/MEM_WB_REGISTER.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/MEM_WB_REGISTER.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MEM_WB_REGISTER
+-- Compiling architecture arch of MEM_WB_REGISTER
+
+} {} {}} {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/REGISTER_FILE.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/REGISTER_FILE.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity REGISTER_FILE
+-- Compiling architecture arch of REGISTER_FILE
+
+} {} {}} {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/JUMP_HAZARD_UNIT.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/JUMP_HAZARD_UNIT.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity JUMP_HAZARD_UNIT
+-- Compiling architecture behaviour of JUMP_HAZARD_UNIT
+
+} {} {}} {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/Main_Memory.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/Main_Memory.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Main_Memory
+-- Compiling architecture Behavioural of Main_Memory
+
+} {} {}} {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/ID_EX_REGISTER.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/ID_EX_REGISTER.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ID_EX_REGISTER
+-- Compiling architecture arch of ID_EX_REGISTER
+
+} {} {}} {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/INSTRUCTION_CACHE.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/INSTRUCTION_CACHE.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity INSTRUCTION_CACHE
+-- Compiling architecture behaviour of INSTRUCTION_CACHE
+
+} {} {}} {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/LAST_TAKEN_BRANCH_CORRECTOR.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/LAST_TAKEN_BRANCH_CORRECTOR.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity LAST_TAKEN_BRANCH_CORRECTOR
+-- Compiling architecture arch of LAST_TAKEN_BRANCH_CORRECTOR
+
+} {} {}} {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/FORWARDING_CONTROLLER.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/FORWARDING_CONTROLLER.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FORWARDING_CONTROLLER
+-- Compiling architecture arch of FORWARDING_CONTROLLER
+
+} {} {}} {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/EX_MEM_REGISTER.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/EX_MEM_REGISTER.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity EX_MEM_REGISTER
+-- Compiling architecture arch of EX_MEM_REGISTER
+
+} {} {}} {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/IF_ID_REGISTER.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/IF_ID_REGISTER.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity IF_ID_REGISTER
+-- Compiling architecture arch of IF_ID_REGISTER
+
+} {} {}} {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/INSTRUCTION_DECODER.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/INSTRUCTION_DECODER.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity INSTRUCTION_DECODER
+-- Compiling architecture arch of INSTRUCTION_DECODER
+
+} {} {}} {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/cpu.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/cpu.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cpu
+-- Compiling architecture rtl of cpu
+-- Loading entity INSTRUCTION_CACHE
+-- Loading entity LAST_TAKEN_TARGET_CALCULATOR
+-- Loading entity IF_ID_REGISTER
+-- Loading entity INSTRUCTION_DECODER
+-- Loading entity CPU_CONTROLLER
+-- Loading entity REGISTER_FILE
+-- Loading entity JUMP_HAZARD_UNIT
+-- Loading entity ID_EX_REGISTER
+-- Loading entity ALU
+-- Loading entity FORWARDING_CONTROLLER
+-- Loading entity EX_MEM_REGISTER
+-- Loading entity LAST_TAKEN_BRANCH_CORRECTOR
+-- Loading entity Main_Memory
+-- Loading entity MEM_WB_REGISTER
+
+} {} {}} {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/Memory_in_Byte.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/Memory_in_Byte.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Memory_in_Byte
+-- Compiling architecture Behavioural of Memory_in_Byte
+
+} {} {}} {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/CPU_CONTROLLER.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/CPU_CONTROLLER.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CPU_CONTROLLER
+-- Compiling architecture arch of CPU_CONTROLLER
+
+} {} {}} {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/LAST_TAKEN_TARGET_CALCULATOR.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/LAST_TAKEN_TARGET_CALCULATOR.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity LAST_TAKEN_TARGET_CALCULATOR
+-- Compiling architecture arch of LAST_TAKEN_TARGET_CALCULATOR
+
+} {} {}} {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/cpu_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Francis/GitProjects/vhdlcpu/Part 2/LastTaken/cpu_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cpu_tb
+-- Compiling architecture bb of cpu_tb
+
+} {} {}}

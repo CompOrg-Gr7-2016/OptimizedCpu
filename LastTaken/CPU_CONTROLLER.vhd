@@ -1,0 +1,242 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+
+entity CPU_CONTROLLER is
+  port (
+    opcode : in std_logic_vector(5 downto 0);
+    funct : in std_logic_vector(5 downto 0);
+
+    reg_write : out std_logic := '0';
+    mem_write : out std_logic := '0';
+    mem_read : out std_logic := '0';
+    alu_imm : out std_logic := '0';
+    reg_d_dest : out std_logic := '0';
+    jump : out std_logic := '0';
+    branch_eq : out std_logic := '0';
+    branch_neq : out std_logic := '0';
+    mem_byte : out std_logic := '0';
+    halt : out std_logic := '0'
+  );
+end entity;
+
+architecture arch of CPU_CONTROLLER is
+begin
+
+identifier : process(opcode)
+begin
+    case( opcode ) is
+        when "000000" => -- ALU R type
+            if funct = "001000" then
+                reg_write <= '0';
+                mem_write <= '0';
+                mem_read <= '0';
+                alu_imm <= '0';
+                reg_d_dest <= '0';
+                jump <= '1';
+                branch_eq <= '0';
+                branch_neq <= '0';
+                mem_byte <= '0';
+                halt <= '0';
+            else
+                reg_write <= '1';
+                mem_write <= '0';
+                mem_read <= '0';
+                alu_imm <= '0';
+                reg_d_dest <= '1';
+                jump <= '0';
+                branch_eq <= '0';
+                branch_neq <= '0';
+                mem_byte <= '0';
+                halt <= '0';
+            end if;
+        when "000010" => -- jump
+            reg_write <= '0';
+            mem_write <= '0';
+            mem_read <= '0';
+            alu_imm <= '0';
+            reg_d_dest <= '0';
+            jump <= '1';
+            branch_eq <= '0';
+            branch_neq <= '0';
+            mem_byte <= '0';
+            halt <= '0';
+        when "000011" => -- jump and link
+            reg_write <= '0';
+            mem_write <= '0';
+            mem_read <= '0';
+            alu_imm <= '0';
+            reg_d_dest <= '0';
+            jump <= '1';
+            branch_eq <= '0';
+            branch_neq <= '0';
+            mem_byte <= '0';
+            halt <= '0';
+        when "000100" => -- branch if equal
+            reg_write <= '0';
+            mem_write <= '0';
+            mem_read <= '0';
+            alu_imm <= '0';
+            reg_d_dest <= '0';
+            jump <= '0';
+            branch_eq <= '1';
+            branch_neq <= '0';
+            mem_byte <= '0';
+            halt <= '0';
+        when "000101" => -- branch if not equal
+            reg_write <= '0';
+            mem_write <= '0';
+            mem_read <= '0';
+            alu_imm <= '0';
+            reg_d_dest <= '0';
+            jump <= '0';
+            branch_eq <= '0';
+            branch_neq <= '1';
+            mem_byte <= '0';
+            halt <= '0';
+        when "001000" => -- addi
+            reg_write <= '1';
+            mem_write <= '0';
+            mem_read <= '0';
+            alu_imm <= '1';
+            reg_d_dest <= '0';
+            jump <= '0';
+            branch_eq <= '0';
+            branch_neq <= '0';
+            mem_byte <= '0';
+            halt <= '0';
+        when "001010" => -- slti
+            reg_write <= '1';
+            mem_write <= '0';
+            mem_read <= '0';
+            alu_imm <= '1';
+            reg_d_dest <= '0';
+            jump <= '0';
+            branch_eq <= '0';
+            branch_neq <= '0';
+            mem_byte <= '0';
+            halt <= '0';
+        when "001100" => -- andi
+            reg_write <= '1';
+            mem_write <= '0';
+            mem_read <= '0';
+            alu_imm <= '1';
+            reg_d_dest <= '0';
+            jump <= '0';
+            branch_eq <= '0';
+            branch_neq <= '0';
+            mem_byte <= '0';
+            halt <= '0';
+        when "001101" => -- ori
+            reg_write <= '1';
+            mem_write <= '0';
+            mem_read <= '0';
+            alu_imm <= '1';
+            reg_d_dest <= '0';
+            jump <= '0';
+            branch_eq <= '0';
+            branch_neq <= '0';
+            mem_byte <= '0';
+            halt <= '0';
+        when "001110" => -- xori
+            reg_write <= '1';
+            mem_write <= '0';
+            mem_read <= '0';
+            alu_imm <= '1';
+            reg_d_dest <= '0';
+            jump <= '0';
+            branch_eq <= '0';
+            branch_neq <= '0';
+            mem_byte <= '0';
+            halt <= '0';
+        when "001111" => -- load upper immediate
+            reg_write <= '1';
+            mem_write <= '0';
+            mem_read <= '0';
+            alu_imm <= '1';
+            reg_d_dest <= '0';
+            jump <= '0';
+            branch_eq <= '0';
+            branch_neq <= '0';
+            mem_byte <= '0';
+            halt <= '0';
+        when "100000" => -- load byte
+            reg_write <= '1';
+            mem_write <= '0';
+            mem_read <= '1';
+            alu_imm <= '1';
+            reg_d_dest <= '0';
+            jump <= '0';
+            branch_eq <= '0';
+            branch_neq <= '0';
+            mem_byte <= '1';
+            halt <= '0';
+        when "100011" => -- load word
+            reg_write <= '1';
+            mem_write <= '0';
+            mem_read <= '1';
+            alu_imm <= '1';
+            reg_d_dest <= '0';
+            jump <= '0';
+            branch_eq <= '0';
+            branch_neq <= '0';
+            mem_byte <= '0';
+            halt <= '0';
+        when "101000" => -- store byte
+            reg_write <= '0';
+            mem_write <= '1';
+            mem_read <= '0';
+            alu_imm <= '1';
+            reg_d_dest <= '0';
+            jump <= '0';
+            branch_eq <= '0';
+            branch_neq <= '0';
+            mem_byte <= '1';
+            halt <= '0';
+        when "101011" => -- store word
+            reg_write <= '0';
+            mem_write <= '1';
+            mem_read <= '0';
+            alu_imm <= '1';
+            reg_d_dest <= '0';
+            jump <= '0';
+            branch_eq <= '0';
+            branch_neq <= '0';
+            mem_byte <= '0';
+            halt <= '0';
+        when "100100" => -- halt
+            reg_write <= '0';
+            mem_write <= '0';
+            mem_read <= '0';
+            alu_imm <= '0';
+            reg_d_dest <= '0';
+            jump <= '0';
+            branch_eq <= '0';
+            branch_neq <= '0';
+            mem_byte <= '0';
+            halt <= '1';
+        when "010101" => -- asrti
+            reg_write <= '0';
+            mem_write <= '0';
+            mem_read <= '0';
+            alu_imm <= '0';
+            reg_d_dest <= '0';
+            jump <= '0';
+            branch_eq <= '0';
+            branch_neq <= '0';
+            mem_byte <= '0';
+            halt <= '0';
+        when others =>
+            reg_write <= '0';
+            mem_write <= '0';
+            mem_read <= '0';
+            alu_imm <= '0';
+            reg_d_dest <= '0';
+            jump <= '0';
+            branch_eq <= '0';
+            branch_neq <= '0';
+            mem_byte <= '0';
+            halt <= '0';
+    end case;
+end process;
+
+end architecture;
